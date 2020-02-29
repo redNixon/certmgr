@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cloudflare/certmgr/cert"
+	"github.com/rednixon/certmgr/cert"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	yaml "gopkg.in/yaml.v2"

@@ -6,5 +6,5 @@ this repository shouldn't rely on any external dependencies.
 It can be built using
 
 ```
-go get -v -u github.com/cloudflare/certmgr/cmd/...
+go get -v -u github.com/rednixon/certmgr/cmd/...
 ```

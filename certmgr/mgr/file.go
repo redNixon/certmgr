@@ -12,10 +12,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/cloudflare/certmgr/cert"
-	"github.com/cloudflare/certmgr/cert/storage"
-	"github.com/cloudflare/certmgr/cert/storage/util"
-	"github.com/cloudflare/cfssl/csr"
+	"github.com/rednixon/certmgr/cert"
+	"github.com/rednixon/certmgr/cert/storage"
+	"github.com/rednixon/certmgr/cert/storage/util"
+	"github.com/rednixon/cfssl/csr"
 	log "github.com/sirupsen/logrus"
 )
 

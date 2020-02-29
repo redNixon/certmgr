@@ -10,11 +10,11 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/cloudflare/cfssl/api/client"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/transport"
-	"github.com/cloudflare/cfssl/transport/core"
+	"github.com/rednixon/cfssl/api/client"
+	"github.com/rednixon/cfssl/csr"
+	"github.com/rednixon/cfssl/info"
+	"github.com/rednixon/cfssl/transport"
+	"github.com/rednixon/cfssl/transport/core"
 	"github.com/pkg/errors"
 )
 

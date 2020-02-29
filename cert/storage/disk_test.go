@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cloudflare/certmgr/cert/storage/util"
+	"github.com/rednixon/certmgr/cert/storage/util"
 )
 
 func getFilesAndPaths(ca, cert, key string) (caFile *util.CertificateFile, certFile *util.CertificateFile, keyFile *util.File, paths []string) {

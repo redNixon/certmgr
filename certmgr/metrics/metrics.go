@@ -28,7 +28,7 @@ var indexPage = `<html>
   <body>
     <h2>Certificate Manager</h2>
     <p>Server started at %s, listening on %s</p>
-    <p><a href="https://github.com/cloudflare/certmgr/">GitHub</a></p>
+    <p><a href="https://github.com/rednixon/certmgr/">GitHub</a></p>
     <h4>Endpoints</h4>
     <ul>
       <li>Prometheus endpoint: <a href="/metrics"><code>/metrics</code></a></li>

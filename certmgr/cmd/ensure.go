@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/cloudflare/certmgr/cert/storage"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/rednixon/certmgr/cert/storage"
+	"github.com/rednixon/cfssl/log"
 	"github.com/spf13/cobra"
 )
 

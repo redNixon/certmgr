@@ -10,14 +10,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cloudflare/certmgr/cert"
-	"github.com/cloudflare/certmgr/cert/storage"
-	"github.com/cloudflare/certmgr/certmgr/metrics"
-	"github.com/cloudflare/certmgr/certmgr/mgr"
+	"github.com/rednixon/certmgr/cert"
+	"github.com/rednixon/certmgr/cert/storage"
+	"github.com/rednixon/certmgr/certmgr/metrics"
+	"github.com/rednixon/certmgr/certmgr/mgr"
 	log "github.com/sirupsen/logrus"
 
 	// needed for ensuring cfssl logs go through logrus
-	cfssl_log "github.com/cloudflare/cfssl/log"
+	cfssl_log "github.com/rednixon/cfssl/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

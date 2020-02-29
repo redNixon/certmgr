@@ -1,11 +1,11 @@
-module github.com/cloudflare/certmgr
+module github.com/rednixon/certmgr
 
 go 1.13
 
 require (
 	github.com/cenkalti/backoff v2.2.1+incompatible
-	github.com/cloudflare/backoff v0.0.0-20161212185259-647f3cdfc87a // indirect
-	github.com/cloudflare/cfssl v0.0.0-20190627231140-2001f384ec4f
+	github.com/rednixon/backoff v0.0.0-20161212185259-647f3cdfc87a // indirect
+	github.com/rednixon/cfssl v0.0.0-20190627231140-2001f384ec4f
 	github.com/google/certificate-transparency-go v1.0.21 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/magiconair/properties v1.8.1 // indirect
