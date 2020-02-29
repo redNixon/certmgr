@@ -1,4 +1,4 @@
 FROM golang:1.11-stretch
-RUN mkdir -p $GOPATH/src/github.com/rednixon/certmgr
-COPY . $GOPATH/src/github.com/rednixon/certmgr/
-WORKDIR $GOPATH/src/github.com/rednixon/certmgr
+RUN mkdir -p $GOPATH/src/github.com/redNixon/certmgr
+COPY . $GOPATH/src/github.com/redNixon/certmgr/
+WORKDIR $GOPATH/src/github.com/redNixon/certmgr

@@ -5,7 +5,7 @@ import (
 	"crypto/x509"
 	"fmt"
 
-	"github.com/rednixon/certmgr/cert/storage/util"
+	"github.com/redNixon/certmgr/cert/storage/util"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

@@ -2,30 +2,30 @@
 github.com/beorn7/perks/quantile
 # github.com/cenkalti/backoff v2.2.1+incompatible
 github.com/cenkalti/backoff
-# github.com/rednixon/backoff v0.0.0-20161212185259-647f3cdfc87a
-github.com/rednixon/backoff
-# github.com/rednixon/cfssl v0.0.0-20190627231140-2001f384ec4f
-github.com/rednixon/cfssl/api
-github.com/rednixon/cfssl/api/client
-github.com/rednixon/cfssl/auth
-github.com/rednixon/cfssl/certdb
-github.com/rednixon/cfssl/config
-github.com/rednixon/cfssl/crypto/pkcs7
-github.com/rednixon/cfssl/csr
-github.com/rednixon/cfssl/errors
-github.com/rednixon/cfssl/helpers
-github.com/rednixon/cfssl/helpers/derhelpers
-github.com/rednixon/cfssl/info
-github.com/rednixon/cfssl/log
-github.com/rednixon/cfssl/ocsp/config
-github.com/rednixon/cfssl/revoke
-github.com/rednixon/cfssl/signer
-github.com/rednixon/cfssl/transport
-github.com/rednixon/cfssl/transport/ca
-github.com/rednixon/cfssl/transport/core
-github.com/rednixon/cfssl/transport/kp
-github.com/rednixon/cfssl/transport/roots
-github.com/rednixon/cfssl/transport/roots/system
+# github.com/redNixon/backoff v0.0.0-20161212185259-647f3cdfc87a
+github.com/redNixon/backoff
+# github.com/redNixon/cfssl v0.0.0-20190627231140-2001f384ec4f
+github.com/redNixon/cfssl/api
+github.com/redNixon/cfssl/api/client
+github.com/redNixon/cfssl/auth
+github.com/redNixon/cfssl/certdb
+github.com/redNixon/cfssl/config
+github.com/redNixon/cfssl/crypto/pkcs7
+github.com/redNixon/cfssl/csr
+github.com/redNixon/cfssl/errors
+github.com/redNixon/cfssl/helpers
+github.com/redNixon/cfssl/helpers/derhelpers
+github.com/redNixon/cfssl/info
+github.com/redNixon/cfssl/log
+github.com/redNixon/cfssl/ocsp/config
+github.com/redNixon/cfssl/revoke
+github.com/redNixon/cfssl/signer
+github.com/redNixon/cfssl/transport
+github.com/redNixon/cfssl/transport/ca
+github.com/redNixon/cfssl/transport/core
+github.com/redNixon/cfssl/transport/kp
+github.com/redNixon/cfssl/transport/roots
+github.com/redNixon/cfssl/transport/roots/system
 # github.com/fsnotify/fsnotify v1.4.7
 github.com/fsnotify/fsnotify
 # github.com/golang/protobuf v1.3.1

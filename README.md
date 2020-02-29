@@ -1,7 +1,7 @@
 # certmgr
 
 [![Build Status](https://travis-ci.org/cloudflare/certmgr.svg?branch=master)](https://travis-ci.org/cloudflare/certmgr)
-[![godoc](https://godoc.org/github.com/rednixon/certmgr?status.svg)](https://godoc.org/github.com/rednixon/certmgr)
+[![godoc](https://godoc.org/github.com/redNixon/certmgr?status.svg)](https://godoc.org/github.com/redNixon/certmgr)
 
 certmgr is a tool for managing certificates using CFSSL. It does the
 following:
@@ -19,9 +19,9 @@ When run without any subcommands, certmgr will start monitoring
 certificates. The configuration and specifications can be validated
 using the `check` subcommand.
 
-If you want to further understand the package logic, take a look at the [godocs](https://godoc.org/github.com/rednixon/certmgr). 
+If you want to further understand the package logic, take a look at the [godocs](https://godoc.org/github.com/redNixon/certmgr). 
 
-**Note**: `certmgr` requires Go 1.11 or later due to [cfssl](https://github.com/rednixon/cfssl) dependency. 
+**Note**: `certmgr` requires Go 1.11 or later due to [cfssl](https://github.com/redNixon/cfssl) dependency. 
 
 
 ## Web server
@@ -34,7 +34,7 @@ has the following endpoints:
 
 ## Metrics
 
-Prometheus is used to collect some useful `certmgr` metrics. You can find them in the [godoc](https://godoc.org/github.com/rednixon/certmgr/metrics). 
+Prometheus is used to collect some useful `certmgr` metrics. You can find them in the [godoc](https://godoc.org/github.com/redNixon/certmgr/metrics). 
 
 ## certmgr.yaml
 
@@ -281,4 +281,4 @@ To contribute, fork this repo and make your changes. Then, make a PR to this rep
 
 ### Unit Testing
 Unit tests can be written locally. This should be straightforward in a Linux environment.
-To run them in a non-Linux environment, have Docker up and run `make test`. This will spin up a container with your local build. From here you can `go test -v ./...` your files. This unconventional setup is because [cfssl](https://github.com/rednixon/cfssl), the underlying logic of `certmgr`, uses [cgo](https://golang.org/cmd/cgo/). 
+To run them in a non-Linux environment, have Docker up and run `make test`. This will spin up a container with your local build. From here you can `go test -v ./...` your files. This unconventional setup is because [cfssl](https://github.com/redNixon/cfssl), the underlying logic of `certmgr`, uses [cgo](https://golang.org/cmd/cgo/). 

@@ -3,8 +3,8 @@ package cert
 import (
 	"encoding/json"
 
-	"github.com/rednixon/cfssl/api"
-	"github.com/rednixon/cfssl/errors"
+	"github.com/redNixon/cfssl/api"
+	"github.com/redNixon/cfssl/errors"
 	log "github.com/sirupsen/logrus"
 )
 

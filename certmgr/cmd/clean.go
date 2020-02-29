@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/rednixon/cfssl/log"
+	"github.com/redNixon/cfssl/log"
 	"github.com/spf13/cobra"
 )
 

@@ -2,7 +2,7 @@
 // restarting services that need to use this.
 package main
 
-import "github.com/rednixon/certmgr/certmgr/cmd"
+import "github.com/redNixon/certmgr/certmgr/cmd"
 
 func main() {
 	cmd.Execute()

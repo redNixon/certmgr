@@ -81,7 +81,7 @@ System Design
 -------------
 
 The certificate manager is essentially a frontend for the `transport
-package <https://godoc.org/github.com/rednixon/cfssl/transport>`__
+package <https://godoc.org/github.com/redNixon/cfssl/transport>`__
 that runs on a host and watches multiple certificates. It should do the
 following:
 
@@ -194,7 +194,7 @@ clearing).
 
 #. During certificate renewal, the CA might be unavailable. The renewal
    queue uses a per-certificate
-   `backoff <https://github.com/rednixon/backoff/>`__ mechanism.
+   `backoff <https://github.com/redNixon/backoff/>`__ mechanism.
 
 #. During certificate renewal, disk I/O (or some other operating system
    error) could prevent the updated certificate from being written to
@@ -209,7 +209,7 @@ Logging
 ~~~~~~~
 
 Certificate manager uses the Go standard library's logging package (via
-the `CFSSL log package <https://godoc.org/github.com/rednixon/cfssl/log>`__). If
+the `CFSSL log package <https://godoc.org/github.com/redNixon/cfssl/log>`__). If
 started in debug mode, it will emit debug messages. Otherwise, it logs
 informational levels.
 

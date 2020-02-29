@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/rednixon/certmgr/cert/storage"
-	"github.com/rednixon/cfssl/log"
+	"github.com/redNixon/certmgr/cert/storage"
+	"github.com/redNixon/cfssl/log"
 	"github.com/spf13/cobra"
 )
 

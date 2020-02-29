@@ -15,9 +15,9 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/cenkalti/backoff"
-	"github.com/rednixon/certmgr/cert/storage"
-	"github.com/rednixon/cfssl/csr"
-	"github.com/rednixon/cfssl/transport"
+	"github.com/redNixon/certmgr/cert/storage"
+	"github.com/redNixon/cfssl/csr"
+	"github.com/redNixon/cfssl/transport"
 	log "github.com/sirupsen/logrus"
 )
 

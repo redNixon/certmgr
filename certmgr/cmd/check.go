@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/rednixon/cfssl/log"
+	"github.com/redNixon/cfssl/log"
 	"github.com/spf13/cobra"
 )
 
